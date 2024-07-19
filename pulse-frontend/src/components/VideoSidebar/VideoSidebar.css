@@ -1,0 +1,33 @@
+.video-sidebar{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.side-icon{
+    margin-top: 50px;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.video-sidebar__button{
+    color: white;
+    
+}
+
+.video-sidebar__button p{
+    padding: 0;
+    margin: 0;
+ }
+
+.red-icon{
+    color: red;
+}

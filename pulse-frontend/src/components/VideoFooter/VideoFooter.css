@@ -1,0 +1,73 @@
+.videoFooter{
+    position: relative;
+    color: white;
+    bottom: 190px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.videoFooter__text{
+    flex: 1;
+}
+
+.videoFooter__text > h3{
+    padding-bottom: 5px;
+}
+
+
+.videoFooter__text > p {
+    padding-bottom: 2px;
+}
+
+.videoFooter_icon{
+    position: absolute;
+}
+
+.videoFooter__ticker {
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+
+
+.ticking-text{
+    animation: tick infinite 4s linear;
+    flex-basis: 80%;
+}
+
+
+@keyframes tick {
+    from {
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+.videoFooter__record{
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+}
+
+
+@keyframes spinTheRecord {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg)
+    }
+}
