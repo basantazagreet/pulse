@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Frontend
+/pulse-frontend/node_modules/
+
+# Backend
+/pulse-backend/node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build files
+/build
+/dist
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
